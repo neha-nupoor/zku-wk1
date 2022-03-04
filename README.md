@@ -1,2 +1,2 @@
 # zku-wk1
-assignment 1
+There are two folders, one for each assignment. 
