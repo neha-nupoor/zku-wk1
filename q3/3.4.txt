@@ -3,7 +3,7 @@ ZK proofs can be used to publish data of any activity without exposing which use
 
 
 1.Anyone applying for any kind of special role based access control in a DAO (or to join a DAO), can do so, without divulging any kind of private information. 
-Only necessary information can be accessed in the verifier contracts, and if the user has a valid proof they are provided access by a smart contract.
+Proof of the necessary info is verified by the verifier smart contract can be accessed in the verifier contracts, and if the user has a valid proof they are provided access by a smart contract.
 
 Example: If a user can prove they have a particular NFT, without giving any other information, they can be added to the DAO.
 
