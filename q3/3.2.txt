@@ -1,0 +1,5 @@
+Q3.2 - Trusted setup process different between Groth16 and PLONK:
+PLONK is a universal trust setup, where each time a new version of product is launched the trust setup ceremony is not needed. The computation of previous trusted users is reused.
+Plonk16 proofs are specific to a given program. Changing the program means starting over, throwing out the old parameters, and generating new ones. Thus, the flexibility of these zkSNARKs is limited.
+Source: https://zkproof.org/2021/06/30/setup-ceremonies/
+

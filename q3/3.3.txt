@@ -1,0 +1,4 @@
+Q3.3 - Give an idea of how we can apply ZK to create unique usage for NFTs.
+We can mint unique tokens based NFTs where the proof is available on chain and metadata can be private. With zk-proofs we can create NFTs that act as a proof of existence, without giving out much details.
+Any verifier can verify the proof, but does not get access to the data.
+Ex: credit information. SSIN/Govt/Private identifiers. Medical records.

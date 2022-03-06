@@ -1,0 +1,7 @@
+SNARKs v/s STARKs:
+Trusted setup is SNARK. No trust setting ceremony is needed in STARK.
+Proof size in STARK is larger than SNARK, however, overall computation cost[amortized] for STARK lowers down in big txn batches.
+STARK verification takes longer in principle because of larger proof sizes.
+Lower onchain storage for SNARK.
+STARKs have higher scalability than SNARKs because their provers are faster.
+SNARKs require less gas than STARKs.

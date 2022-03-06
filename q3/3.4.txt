@@ -1,0 +1,13 @@
+Q3.4 - [Bonus] Give a novel idea on how we can apply ZK for Dao Tooling.
+ZK proofs can be used to publish data of any activity without exposing which user performed the activity.
+
+
+1.Anyone applying for any kind of special role based access control in a DAO (or to join a DAO), can do so, without divulging any kind of private information. 
+Only necessary information can be accessed in the verifier contracts, and if the user has a valid proof they are provided access by a smart contract.
+
+Example: If a user can prove they have a particular NFT, without giving any other information, they can be added to the DAO.
+
+2. Another application of the same could be, a user can be given access to certain features of the DAO if they have a valid proof of activity/knowledge. 
+This can be done without getting any information about the user. This can be applicable in games as well where DAOs are formed as a game plan.
+
+Example: If a user can prove they have done X amount of campaigns/fights in a clan(DAO), if they choose to move to another clan(DAO), a smart contract can verify their proof, and provide them the same role/responsibility in the next clan, without divulging any other information about the user. 
