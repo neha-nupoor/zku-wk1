@@ -1,3 +1,18 @@
 Q: `Do we really need zero-knowledge proof for this? Can a publicly verifiable smart contract that computes Merkle root achieve the same? If so, give a scenario where Zero-Knowledge proofs like this might be useful. Are there any technologies implementing this type of proof? Elaborate in 100 words on how they work.`
 
-Ans: TBD
+Ans: 
+
+No. A publicly verifiable smart contract that computes Merkle root will achieve the same functionality.
+
+However, this will be computationally expensive and cost a lot of gas. It can make the overall txn slow down, when the mainnet is congested, bringing down the overall efficiency, and a lower TPS will mean the system will not be able to scale when needed, or in case of peak/surge in traffic.
+
+Similarly, in terms of space complexity, the whole tree will take a lot more space than just the proof of the leaf's existence in the tree. 
+
+It can be used to verify the proof of existence of a leaf(txn) in the main net, where the tree can reside off chain. And on chain, a verifier contract can verify the Merkle root. Proff is smaller and verification takes less time, thus making the verifier more efficient.
+
+The proof is significantly smaller in size than the Merkle tree. This reduces the gas cost/txn. Further optimizations can be made to reduce the gas cost, such as batching multiple merkle proofs into a single transaction, and running such batched verifications.
+
+Ex: L2 scaling solutions like Polygon, zkSync etc.
+
+
+
